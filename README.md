@@ -10,6 +10,7 @@
 
 
 import UIKit
+
 class ViewController: UIViewController {
     var isPink = true
     var lightOn = true
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateUI()
     }
+    
     @IBAction func SliderAction(_ sender: Any) {
         let color = greySlider.value
         view.backgroundColor = UIColor(red:(255 - CGFloat(color))/255, green: 255/255.0, blue: (255 + CGFloat(color))/255.0, alpha: 1.0)
