@@ -12,12 +12,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     var isPink = true
+    
     var lightOn = true
+    
     @IBOutlet weak var greySlider: UISlider!
+    
     @IBOutlet weak var Label: UILabel!
+    
     @IBOutlet weak var BlueValue: UILabel!
+    
     @IBOutlet weak var BlueScale: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
