@@ -13,7 +13,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var isPink = true
+    var isYellow = true
     
     var lightOn = true
     
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         }
     }
     func updateUI() {
-        if !isPink {
+        if !isYellow {
             view.backgroundColor = UIColor(red: 120/255.0, green: 126/255.0, blue: 217/255.0, alpha: 1.0)
         }
         else if lightOn {
